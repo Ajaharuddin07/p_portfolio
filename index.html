@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajahar's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/a63ff9496e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo1.png" alt="" class="logo" />
+          <!-- <span class="logo">Ajaharuddin</span> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hello 👋, I'm <span>Ajaharuddin <br />Ansari</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------about-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/profile3.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              rem commodi doloribus, quas quasi neque vel sit facere aut dolores
+              minima? Reiciendis aut illo sint assumenda odio saepe similique
+              quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Vel omnis eos aut dolores quia, tempora optio doloribus ducimus
+              nulla incidunt reiciendis rem nostrum saepe distinctio aliquid
+              fugiat debitis consequuntur nisi!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skill')">
+                Skills
+              </p>
+
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skill">
+              <ul>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>Frontend Development</span><br />Building Frontend
+                </li>
+                <li>
+                  <span>Python Developer</span><br />Python Programming
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019 - 2023</span><br />
+                  Bachelor of Technology (B.Tech)
+                </li>
+                <li><span>2018</span><br />Higher Secondary Education</li>
+                <li><span>2016</span><br />Secondary Education</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------services------------------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              cupiditate doloribus natus quibusdam quidem odio beatae itaque,
+              aperiam aliquam corrupti necessitatibus explicabo, aliquid iusto
+              repellat, illum ipsam ea suscipit fuga?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              cupiditate doloribus natus quibusdam quidem odio beatae itaque,
+              aperiam aliquam corrupti necessitatibus explicabo, aliquid iusto
+              repellat, illum ipsam ea suscipit fuga?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              cupiditate doloribus natus quibusdam quidem odio beatae itaque,
+              aperiam aliquam corrupti necessitatibus explicabo, aliquid iusto
+              repellat, illum ipsam ea suscipit fuga?
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Food-Online-30-11-18.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connect you to the talented people around the world.
+                Download it from play store
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Food-Online-30-11-18.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connect you to the talented people around the world.
+                Download it from play store
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Food-Online-30-11-18.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connect you to the talented people around the world.
+                Download it from play store
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ---------------contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>ajaharuddin314@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 7080445806</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/ajahar444/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/the_ajaharuddin07?igsh=MTBycG42b2xwcmwxbA=="><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+             
+              
+            </div>
+            <a href="images/Ajaharuddin_Resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" />
+              <input type="email" name="email" placeholder="Your Email" />
+              <textarea name="Message" id="" cols="30" rows="6"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright @ Ajaharuddin. Made with
+          <i class="fa-sharp fa-solid fa-heart"></i>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzFtZcjh8HAwTBADAyJGCFJdsWg0vGs65ZfNz3_mKWJAtrUra9PIGQkQOKHCjfP9NLm/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
